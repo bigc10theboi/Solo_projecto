@@ -5,22 +5,22 @@ Makeup for project 1
 
 
 # User Story
-AS an avid NHL Fan
-I WANT to be able to track game results and standings by team
-SO THAT I can keep up to date with my favorite teams around the league
+AS an avid NHL Fan <br>
+I WANT to be able to track game results and standings by team <br>
+SO THAT I can keep up to date with my favorite teams around the league <br>
 
 # App Funcitonality
 
 
 # Project Requirements
-Must be interactive (i.e: accept and respond to user input)
-Must be deployed to GitHub Pages
-Does NOT use alerts, confirms, or prompts (look into modals).
-Must meet good quality coding standards (indentation, scoping, naming, etc.)
-Must have a polished, mobile-first UI
-Use at least one new third-party API
-Must use a CSS framework (Bootstrap/Foundation/Bulma/Skeleton/etc)
-Must use at least two server-side APIs (adjusted to one to accomodate solo project)
+Must be interactive (i.e: accept and respond to user input) <br>
+Must be deployed to GitHub Pages <br>
+Does NOT use alerts, confirms, or prompts (look into modals) <br>
+Must meet good quality coding standards (indentation, scoping, naming, etc.) <br>
+Must have a polished, mobile-first UI <br>
+Use at least one new third-party API <br>
+Must use a CSS framework (Bootstrap/Foundation/Bulma/Skeleton/etc) <br>
+Must use at least two server-side APIs (adjusted to one to accomodate solo project) <br>
 
 ######
 Author: Carter Venne
