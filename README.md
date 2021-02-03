@@ -5,7 +5,9 @@ Makeup for project 1
 
 
 # User Story
-
+AS an avid NHL Fan
+I WANT to be able to track game results and standings by team
+SO THAT I can keep up to date with my favorite teams around the league
 
 # Project Requirements
 Must be interactive (i.e: accept and respond to user input)
