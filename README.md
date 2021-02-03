@@ -9,6 +9,9 @@ AS an avid NHL Fan
 I WANT to be able to track game results and standings by team
 SO THAT I can keep up to date with my favorite teams around the league
 
+# App Funcitonality
+
+
 # Project Requirements
 Must be interactive (i.e: accept and respond to user input)
 Must be deployed to GitHub Pages
