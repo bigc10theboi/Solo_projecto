@@ -1,4 +1,4 @@
-# Solo_projecto
+# Wheel, Snipe, Celly- NHL Team Tracker
 Makeup for project 1
 
 # My Experience
