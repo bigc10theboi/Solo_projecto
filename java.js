@@ -1,3 +1,7 @@
+document.getElementById("pageTitle").addEventListener("click", function(event){
+	event.preventDefault()
+})
+
 //API call
 const settings = {
 	"async": true,

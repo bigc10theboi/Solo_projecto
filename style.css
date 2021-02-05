@@ -13,6 +13,16 @@ a {
 .navbar {
 	background-color: rgba(143, 206, 228, .5);
 }
+li {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.navLinks {
+	color:black;
+	margin-top: 15px;
+	margin-left: 650px;
+	font-weight: bolder;
+}
 
 /* past five games */
 h2 {
@@ -26,8 +36,8 @@ h2 {
 	float: right;
 }
 .fiveGame {
-	height: 175px;
-	width: 550px;
+	height: 170px;
+	width: 600px;
 	padding: 10px;
 	padding-left: 40px;
 	text-align: center;
