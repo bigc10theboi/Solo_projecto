@@ -27,4 +27,4 @@ Author: Carter Venne
 
 Github repository: https://github.com/bigc10theboi/Solo_projecto
 
-Deployed website:
+Deployed website:https://bigc10theboi.github.io/Wheel_Snipe_Celly/
