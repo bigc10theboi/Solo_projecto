@@ -8,7 +8,7 @@ body {
 /* past five games */
 h3 {
 	color: rgb(151, 29, 29) ;
-	padding-left: 75px;
+	padding-left: 15px;
 	background-color: snow;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 900;
@@ -19,11 +19,12 @@ h3 {
 .fiveGame {
 	height: 175px;
 	width: 550px;
-	padding: 25px;
+	padding: 10px;
 	padding-left: 40px;
 	text-align: center;
 	background-color: rgb(143, 206, 228);
 	color: snow;
 	border: solid 5px black;
 	margin-bottom: 15px;
+	border-radius: 15%;
 }
