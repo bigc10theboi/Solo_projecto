@@ -1,5 +1,29 @@
+/* overall page styling */
 body {
 	background-image: url(assets/Hockey\ rink-darker\ background.jpg);
 	background-attachment: fixed;
-	background-size: contain;
+	background-size: cover;
+}
+
+/* past five games */
+h3 {
+	color: rgb(151, 29, 29) ;
+	padding-left: 75px;
+	background-color: snow;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 900;
+}
+#fiveGame {
+	float: right;
+}
+.fiveGame {
+	height: 175px;
+	width: 550px;
+	padding: 25px;
+	padding-left: 40px;
+	text-align: center;
+	background-color: rgb(143, 206, 228);
+	color: snow;
+	border: solid 5px black;
+	margin-bottom: 15px;
 }
