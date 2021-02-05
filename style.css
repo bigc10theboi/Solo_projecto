@@ -20,13 +20,13 @@ li {
 .navLinks {
 	color:black;
 	margin-top: 15px;
-	margin-left: 650px;
+	margin-left: 600px;
 	font-weight: bolder;
 }
 
 /* past five games */
 h2 {
-	color: rgb(185, 31, 31) ;
+	color: rgb(144, 30, 30);
 	padding-left: 15px;
 	background-color: rgba(251, 248, 248, .5);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
