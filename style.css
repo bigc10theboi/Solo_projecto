@@ -2,12 +2,21 @@
 body {
 	background-image: url(assets/Hockey\ rink-darker\ background.jpg);
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: auto;
+}
+
+/* navbar */
+a {
+	color: rgb(185, 31, 31);
+	font-weight: bolder;
+}
+.navbar {
+	background-color: rgba(143, 206, 228, .5);
 }
 
 /* past five games */
-h3 {
-	color: rgb(151, 29, 29) ;
+h2 {
+	color: rgb(185, 31, 31) ;
 	padding-left: 15px;
 	background-color: snow;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,6 +34,6 @@ h3 {
 	background-color: rgb(143, 206, 228);
 	color: snow;
 	border: solid 5px black;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	border-radius: 15%;
 }
