@@ -28,9 +28,10 @@ li {
 h2 {
 	color: rgb(185, 31, 31) ;
 	padding-left: 15px;
-	background-color: snow;
+	background-color: rgba(251, 248, 248, .5);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 900;
+	border-radius: 20%;
 }
 #fiveGame {
 	float: right;
@@ -41,8 +42,7 @@ h2 {
 	padding: 10px;
 	padding-left: 40px;
 	text-align: center;
-	background-color: rgb(143, 206, 228);
-	color: snow;
+	background-color: rgba(143, 206, 228, .5);
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
