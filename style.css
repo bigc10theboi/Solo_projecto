@@ -47,3 +47,16 @@ h2 {
 	margin-bottom: 5px;
 	border-radius: 15%;
 }
+
+/* media queries */
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
