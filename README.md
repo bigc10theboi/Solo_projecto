@@ -25,6 +25,6 @@ Must use at least two server-side APIs (adjusted to one to accomodate solo proje
 ######
 Author: Carter Venne
 
-Github repository: https://github.com/bigc10theboi/Solo_projecto
+Github repository: https://github.com/carterVenne/Solo_projecto
 
-Deployed website:https://bigc10theboi.github.io/Wheel_Snipe_Celly/
+Deployed website:https://cartervenne.github.io/Wheel_Snipe_Celly/
