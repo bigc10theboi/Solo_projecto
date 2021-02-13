@@ -9,7 +9,7 @@ AS an avid NHL Fan <br>
 I WANT to be able to track game results and standings by team <br>
 SO THAT I can keep up to date with my favorite teams around the league <br>
 
-# App Funcitonality
+# App Functionality
 
 
 # Project Requirements
