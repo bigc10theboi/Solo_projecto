@@ -26,7 +26,7 @@ li {
 	margin-left: 400px;
 	font-weight: bolder;
 }
-/* next game on schedule */
+/* left hand divs */
 h1 {
 	text-align: center;
 	color: rgb(144, 30, 30);
@@ -37,10 +37,25 @@ h1 {
 	font-weight: 700;
 	border-radius: 20%;
 }
-.col-md-12 {
+.favTeam {
 	margin-left: 40px;
 	float: left;
 	height: 250px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(143, 206, 228, .5);
+	border: solid 5px black;
+	margin-bottom: 5px;
+	border-radius: 15%;
+}
+.teamHis {
+	text-align: center;
+	margin-left: 300px;
+}
+.teamHistory {
+	margin-left: 40px;
+	float: left;
+	height: 500px;
 	padding: 10px;
 	text-align: center;
 	background-color: rgba(143, 206, 228, .5);
