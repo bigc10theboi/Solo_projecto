@@ -14,7 +14,7 @@ a {
 	font-weight: bolder;
 }
 .navbar {
-	background-color: rgba(143, 206, 228, .5);
+	background-color: rgba(143, 206, 228, .6);
 }
 li {
 	margin-left: 25px;
@@ -30,7 +30,7 @@ li {
 h1 {
 	text-align: center;
 	color: rgb(144, 30, 30);
-	background-color: rgba(251, 248, 248, .5);
+	background-color: rgba(253, 251, 251, .7);
 	margin-top: 5px;
 	margin-left: 80px;
 	margin-right: auto;
@@ -44,14 +44,14 @@ h1 {
 	height: 250px;
 	padding: 10px;
 	text-align: center;
-	background-color: rgba(143, 206, 228, .5);
+	background-color: rgba(143, 206, 228, .6);
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
 }
 .teamHis {
 	text-align: center;
-	margin-left: 300px;
+	margin-left: 315px;
 }
 .teamHistory {
 	margin-left: 40px;
@@ -59,7 +59,7 @@ h1 {
 	height: 500px;
 	padding: 10px;
 	text-align: center;
-	background-color: rgba(143, 206, 228, .5);
+	background-color: rgba(143, 206, 228, .6);
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
@@ -69,7 +69,7 @@ h1 {
 h2 {
 	color: rgb(144, 30, 30);
 	padding-left: 15px;
-	background-color: rgba(251, 248, 248, .5);
+	background-color: rgba(253, 251, 251, .7);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 900;
 	border-radius: 20%;
@@ -85,7 +85,7 @@ h2 {
 	padding: 10px;
 	padding-left: 40px;
 	text-align: center;
-	background-color: rgba(143, 206, 228, .5);
+	background-color: rgba(143, 206, 228, .6);
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
