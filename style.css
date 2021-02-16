@@ -32,14 +32,14 @@ h1 {
 	color: rgb(144, 30, 30);
 	background-color: rgba(253, 251, 251, .7);
 	margin-top: 5px;
-	margin-left: 80px;
+	margin-left: 90px;
 	margin-right: auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 700;
 	border-radius: 20%;
 }
 .favTeam {
-	margin-left: 40px;
+	margin-left: 50px;
 	float: left;
 	height: 250px;
 	padding: 10px;
@@ -51,10 +51,10 @@ h1 {
 }
 .teamHis {
 	text-align: center;
-	margin-left: 315px;
+	margin-left: 325px;
 }
 .teamHistory {
-	margin-left: 40px;
+	margin-left: 50px;
 	float: left;
 	height: 500px;
 	padding: 10px;
@@ -77,13 +77,12 @@ h2 {
 }
 #fiveGame {
 	float: right;
-	margin-right: 20px;
+	margin-right: 50px;
 }
 .fiveGame {
 	height: 170px;
 	width: 600px;
 	padding: 10px;
-	padding-left: 40px;
 	text-align: center;
 	background-color: rgba(143, 206, 228, .6);
 	border: solid 5px black;
