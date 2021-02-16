@@ -4,6 +4,9 @@ body {
 	background-attachment: fixed;
 	background-size: auto;
 }
+.container {
+	float: left;
+}
 
 /* navbar */
 a {
@@ -23,6 +26,28 @@ li {
 	margin-left: 400px;
 	font-weight: bolder;
 }
+/* next game on schedule */
+h1 {
+	text-align: center;
+	color: rgb(144, 30, 30);
+	background-color: rgba(251, 248, 248, .5);
+	margin-left: 80px;
+	margin-right: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	border-radius: 20%;
+}
+.col-md-12 {
+	margin-left: 40px;
+	float: left;
+	height: 250px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(143, 206, 228, .5);
+	border: solid 5px black;
+	margin-bottom: 5px;
+	border-radius: 15%;
+}
 
 /* past five games */
 h2 {
@@ -35,6 +60,7 @@ h2 {
 }
 #fiveGame {
 	float: right;
+	margin-right: 20px;
 }
 .fiveGame {
 	height: 170px;
