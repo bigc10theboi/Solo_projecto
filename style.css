@@ -31,6 +31,7 @@ h1 {
 	text-align: center;
 	color: rgb(144, 30, 30);
 	background-color: rgba(251, 248, 248, .5);
+	margin-top: 5px;
 	margin-left: 80px;
 	margin-right: auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -72,6 +73,7 @@ h2 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 900;
 	border-radius: 20%;
+	margin-top: 5px;
 }
 #fiveGame {
 	float: right;
