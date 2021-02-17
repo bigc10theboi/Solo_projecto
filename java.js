@@ -1,3 +1,4 @@
+//prevent for title page link
 document.getElementById("pageTitle").addEventListener("click", function(event){
 	event.preventDefault()
 })
@@ -18,6 +19,9 @@ document.getElementById("pageTitle").addEventListener("click", function(event){
 // $.ajax(settings).done(function (response) {
 // 	console.log(response);
 // });
+
+//nhl league id# is 57
+//individual team numbers assigned to each nhl team for whole api, if within nhl array goes 0-30
 
 
 //code for moment date
