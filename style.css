@@ -54,6 +54,10 @@ li {
 	text-decoration: none;
 	display: block;
 }
+.force-scroll {
+	overflow-y: scroll;
+	height: 250px;
+}
 /* color of dropdown links on hover */
 .dropdown-menu a:hover {background-color: #ddd;}
 /* dropdown menu on hover */
