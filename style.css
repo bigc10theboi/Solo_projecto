@@ -33,16 +33,17 @@ li {
 	margin-left: 50px;
 	height: 40px;
 	width: 150px;
-	background-color: antiquewhite;
+	background-color: whitesmoke;
 	font-size: larger;
+	font-weight: 900;
 }
 .dropdown-menu {
 	margin-left: 20px;
 	display: none;
 	position: absolute;
-	background-color: #f1f1f1;
+	background-color: whitesmoke;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 8px 8px 16px 8px rgba(143, 206, 228, 0.8);
 	z-index: 1;
 }
 .dropdown {
@@ -60,7 +61,7 @@ li {
 	height: 250px;
 }
 /* color of dropdown links on hover */
-.dropdown-menu a:hover {background-color: #ddd;}
+.dropdown-menu a:hover {background-color: rgba(144,30,30,0.5);}
 /* dropdown menu on hover */
 .dropdown:hover .dropdown-menu {display: block;}
 /* background color of the dropdown button when the dropdown content is shown */
