@@ -46,6 +46,7 @@ li {
 	min-width: 160px;
 	box-shadow: 3px 8px 12px 8px rgba(143, 206, 228, 0.8);
 	z-index: 1;
+	border: solid 1px black;
 }
 .dropdown {
 	position: relative;
