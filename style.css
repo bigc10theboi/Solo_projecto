@@ -34,8 +34,9 @@ li {
 	height: 40px;
 	width: 150px;
 	background-color: whitesmoke;
-	font-size: larger;
+	font-size: large;
 	font-weight: 900;
+	border: solid 2px rgb(143, 206, 228);
 }
 .dropdown-menu {
 	margin-left: 20px;
