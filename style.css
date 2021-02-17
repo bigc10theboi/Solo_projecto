@@ -66,6 +66,19 @@ li {
 /* background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .teamBtn {background-color: rgb(144, 30, 30);}
 
+/* current date display */
+.date {
+	float: right;
+	margin-right: 375px;
+	margin-top: 10px;
+	text-align: center;
+	color: rgb(144, 30, 30);
+	background-color: rgba(253, 251, 251, .7);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	border-radius: 20%;
+	width: 275px;
+}
 /* left hand divs */
 h1 {
 	text-align: center;
