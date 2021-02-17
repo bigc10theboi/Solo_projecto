@@ -36,7 +36,7 @@ li {
 	background-color: whitesmoke;
 	font-size: large;
 	font-weight: 900;
-	border: solid 2px rgb(143, 206, 228);
+	border: solid 2px rgba(143, 206, 228, .6);
 }
 .dropdown-menu {
 	margin-left: 20px;
