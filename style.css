@@ -26,6 +26,41 @@ li {
 	margin-left: 400px;
 	font-weight: bolder;
 }
+
+/* dropdown menu */
+.teamBtn {
+	margin-top: 5px;
+	margin-left: 50px;
+	height: 40px;
+	width: 150px;
+	background-color: antiquewhite;
+	font-size: larger;
+}
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-menu a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+/* color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd;}
+/* dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block;}
+/* background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .teamBtn {background-color: rgb(144, 30, 30);}
+
 /* left hand divs */
 h1 {
 	text-align: center;
