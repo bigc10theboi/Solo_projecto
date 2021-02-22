@@ -28,3 +28,6 @@ Author: Carter Venne
 Github repository: https://github.com/carterVenne/Solo_projecto
 
 Deployed website:https://cartervenne.github.io/Wheel_Snipe_Celly/
+
+# License
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
