@@ -3,25 +3,28 @@ document.getElementById("pageTitle").addEventListener("click", function(event){
 	event.preventDefault()
 })
 
-//API call
-// const settings = {
-// 	"async": true,
-//     "crossDomain": true,
-//     //must determine how to input variables into url or if another endpoint is needed
-// 	"url": "https://api-hockey.p.rapidapi.com/teams/statistics/?league=57&season=2019&team=17",
-// 	"method": "GET",
-// 	"headers": {
-// 		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
-// 		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
-// 	}
-// };
+//call for games result
+const settings = {
+	async: true,
+	crossDomain: true,
+	url: "https://api-hockey.p.rapidapi.com/games/?league=57&season=2020&team=687",
+	method: "GET",
+  headers: {
+		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
+		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
+	},
+  data: {
+    league = 57,
+    nhlTeam = "",
+    season = 2020
+  }
+};
 
-// $.ajax(settings).done(function (response) {
-// 	console.log(response);
-// });
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
 
-//nhl league id# is 57
-//individual team numbers assigned to each nhl team for whole api, if within nhl array goes 0-30
+
 
 
 //code for moment date
