@@ -3,26 +3,40 @@ document.getElementById("pageTitle").addEventListener("click", function(event){
 	event.preventDefault()
 })
 
-//call for games result
-const settings = {
-	async: true,
-	crossDomain: true,
-	url: "https://api-hockey.p.rapidapi.com/games/?league=57&season=2020",
-	method: "GET",
-  headers: {
-		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
-		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
-	},
-  data: {
-    team = "",
-  }
-};
+// //call for games result
+// const settings = {
+// 	async: true,
+// 	crossDomain: true,
+// 	url: "https://api-hockey.p.rapidapi.com/games/?date=2020-10-02",
+// 	method: "GET",
+//   headers: {
+// 		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
+// 		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
+// 	},
+//   data: {
+//     league = 57,
+//     season = 2020,
+//     team = ""
+//   }
+// };
 
-$.ajax(settings).done(function (response) {
-	console.log(response);
-});
+// $(document).ready(function () {
+// 	$("#teamSelect").click(function (event) {
+// 		data.target = $(this).attr("nhlTeam");
+// 		postGame();
+// 		$("#teamSelect").html($(this).html());
+// 	});
+// });
 
+// function translate() {
+// 	$.ajax(settings).done(function (response) {
+// 		console.log(response);
 
+// 		var nextGame = response.data[0].nextGame;
+
+// 		$(".nhlGame").text(nextGame);
+// 	});
+// }
 
 
 //code for moment date

@@ -88,7 +88,7 @@ h1 {
 	color: rgb(144, 30, 30);
 	background-color: rgba(253, 251, 251, .7);
 	margin-top: 5px;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-right: auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 700;
@@ -97,7 +97,7 @@ h1 {
 .favTeam {
 	margin-left: 50px;
 	float: left;
-	height: 250px;
+	height: 750px;
 	padding: 10px;
 	text-align: center;
 	background-color: rgba(143, 206, 228, .6);
@@ -105,7 +105,8 @@ h1 {
 	margin-bottom: 5px;
 	border-radius: 15%;
 }
-.teamHis {
+/* ended up shelfing this second endpoint */
+/* .teamHis {
 	text-align: center;
 	margin-left: 325px;
 }
@@ -119,7 +120,7 @@ h1 {
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
-}
+} */
 
 /* past five games */
 h2 {
