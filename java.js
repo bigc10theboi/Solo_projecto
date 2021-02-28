@@ -28,7 +28,7 @@ document.getElementById("pageTitle").addEventListener("click", function(event){
 // 	});
 // });
 
-// function translate() {
+// function postGame() {
 // 	$.ajax(settings).done(function (response) {
 // 		console.log(response);
 
