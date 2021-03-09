@@ -18,7 +18,7 @@
 
 // $(document).ready(function () {
 // 	$("#teamSelect").click(function (event) {
-// 		data.target = $(this).attr("nhlTeam");
+// 		data.target = $(this).attr("team");
 // 		postGame();
 // 		$("#teamSelect").html($(this).html());
 // 	});
