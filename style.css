@@ -148,6 +148,10 @@ h2 {
 }
 
 /* media queries */
+@media screen and (max-width: 1224px) {
+
+}
+
 @media screen and (max-width: 992px) {
 
 }
