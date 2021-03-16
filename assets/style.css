@@ -83,6 +83,48 @@ li {
 	border-radius: 20%;
 	width: 275px;
 }
+/* home/away team stylings */
+.homeTeamMain{
+	color: blue;
+	float: center;
+	font-size: 125px;
+}
+.homeScoreMain{
+
+	color: blue;
+	float: center;
+	font-size: 100px;
+}
+.awayTeamMain{
+	color: red;
+	float: center;
+	font-size: 125px;
+}
+.awayScoreMain{
+	color: red;
+	float: center;
+	font-size: 100px;
+}
+.homeTeam{
+	color: blue;
+	float: center;
+	font-weight: 900;
+}
+.homeScore{
+	color: blue;
+	float: center;
+	font-weight: 900;
+}
+.awayTeam{
+	color: red;
+	float: center;
+	font-weight: 900;
+}
+.awayScore{
+	color: red;
+	float: center;
+	font-weight: 900;
+}
 /* left hand divs */
 h1 {
 	text-align: center;
