@@ -1,6 +1,6 @@
 /* overall page styling */
 body {
-	background-image: url(assets/Hockey\ rink-darker\ background.jpg);
+	background-image: url(Hockey\ rink-darker\ background.jpg);
 	background-attachment: fixed;
 	background-size: auto;
 }
@@ -98,6 +98,7 @@ h1 {
 	margin-left: 50px;
 	float: left;
 	height: 800px;
+	width: auto;
 	padding: 10px;
 	text-align: center;
 	background-color: rgba(143, 206, 228, .6);
@@ -149,17 +150,83 @@ h2 {
 
 /* media queries */
 @media screen and (max-width: 1224px) {
-
+	/* navbar */
+	.navLinks {
+		margin-left: 50px;
+	}
+	/* aside */
+	#fiveGame {
+		margin-right: 200px;
+	}
 }
 
 @media screen and (max-width: 992px) {
-
+	/* navbar */
+	li {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.navLinks {
+		margin-left: 0px;
+	}
+	/* date display */
+	.date {
+		margin-right: 150px;
+	}
+	/* aside */
+	#fiveGame {
+		margin-right: 75px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-
+	/* navbar */
+	a {
+		font-weight: 400;
+	}
+	.navLinks {
+		font-weight: 400;
+	}
+	/* date display */
+	.date {
+		margin-right: 0px;
+		width: 200px;
+	}
+	/* fave team div */
+	h1 {
+		margin-left: 100px;
+		margin-right: auto;
+		font-weight: 500;
+	}
+	.favTeam {
+		margin-left: 10px;
+		width: auto;
+		min-width: 480px;
+		height: 500px;
+	}
+	/* aside */
+	h2 {
+		font-weight: 500;
+	}
+	#fiveGame {
+		margin-right: 10px;
+	}
+	.fiveGame {
+		width: auto;
+	}
 }
 
 @media screen and (max-width: 480px) {
-
+	/* date display */
+	.date {
+		width: auto;
+	}
+	/* team dropdown select */
+	.teamBtn {
+		margin-left: 0px;
+		width: 130px;
+	}
+	.dropdown-menu {
+		margin-left: 0px;
+	}
 }
