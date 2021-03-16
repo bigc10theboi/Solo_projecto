@@ -259,6 +259,20 @@ h2 {
 		min-width: 480px;
 		height: 500px;
 	}
+	.homeTeamMain{
+		font-size: 50px;
+	}
+	.homeScoreMain{
+		font-size: 40px;
+	}
+	.awayTeamMain{
+
+		font-size: 50px;
+	}
+	.awayScoreMain{
+
+		font-size: 40px;
+	}
 	/* aside */
 	h2 {
 		font-weight: 500;

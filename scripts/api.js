@@ -1,6 +1,44 @@
 const date = moment();
 
-// call for games result
+$(document).ready(function () {
+	$(".dropdown-item").click(function (event) {
+		data.team = $(this).attr("team");
+		postGame();
+		$(".dropdown-item").html($(this).html());
+	});
+});
+
+function postGame() {
+	$.ajax(settings).done(function (response) {
+		console.log(response);
+
+		var awayTeam = response.data[0].teams.away.name;
+
+		$(".awayTeamMain").text(awayTeam);
+	});
+}
+
+//team hisory call
+const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://api-hockey.p.rapidapi.com/teams/?id" + $(data.id),
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
+		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
+	},
+    data: {
+        id: "",
+    },
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+
+
+// // call for games result
 // const settings = {
 // 	async: true,
 // 	crossDomain: true,
@@ -14,24 +52,6 @@ const date = moment();
 //         team: "",
 //     },
 // };
-
-// $(document).ready(function () {
-// 	$(".dropdown-item").click(function (event) {
-// 		data.team = $(this).attr("team");
-// 		postGame();
-// 		$(".dropdown-item").html($(this).html());
-// 	});
-// });
-
-// function postGame() {
-// 	$.ajax(settings).done(function (response) {
-// 		console.log(response);
-
-// 		var nextGame = response.data[0].nextGame;
-
-// 		$(".nhlGame").text(nextGame);
-// 	});
-// }
 
 
 // example call
