@@ -1,26 +1,25 @@
+const date = moment();
 
-// //call for games result
+// call for games result
 // const settings = {
 // 	async: true,
 // 	crossDomain: true,
-// 	url: "https://api-hockey.p.rapidapi.com/games/?date=2020-10-02",
-// 	method: "GET",
-//   headers: {
+// 	url: "https://api-hockey.p.rapidapi.com/games/?date=" + $(date) + "&league=57&season=2020" + $(".dropdown-item"),
+//     method: "GET",
+//     headers: {
 // 		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
 // 		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
 // 	},
-//   data: {
-//     league = 57,
-//     season = 2020,
-//     team = ""
-//   }
+//     data: {
+//         team: "",
+//     },
 // };
 
 // $(document).ready(function () {
-// 	$("#teamSelect").click(function (event) {
-// 		data.target = $(this).attr("team");
+// 	$(".dropdown-item").click(function (event) {
+// 		data.team = $(this).attr("team");
 // 		postGame();
-// 		$("#teamSelect").html($(this).html());
+// 		$(".dropdown-item").html($(this).html());
 // 	});
 // });
 
