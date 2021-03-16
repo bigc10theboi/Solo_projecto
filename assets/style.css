@@ -15,6 +15,7 @@ a {
 }
 .navbar {
 	background-color: rgba(143, 206, 228, .6);
+	max-height: fit-content;
 }
 li {
 	margin-left: 25px;
@@ -23,7 +24,7 @@ li {
 .navLinks {
 	color:black;
 	margin-top: 15px;
-	margin-left: 400px;
+	margin-left: 250px;
 	font-weight: bolder;
 }
 
