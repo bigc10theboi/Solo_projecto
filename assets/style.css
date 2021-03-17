@@ -85,43 +85,43 @@ li {
 }
 /* home/away team stylings */
 .homeTeamMain{
-	color: blue;
+	color: rgba(7, 7, 251, 0.6);
 	float: center;
 	font-size: 125px;
 }
 .homeScoreMain{
 
-	color: blue;
+	color:  rgba(7, 7, 251, 0.6);
 	float: center;
 	font-size: 100px;
 }
 .awayTeamMain{
-	color: red;
+	color: rgba(252, 11, 11, 0.6);
 	float: center;
 	font-size: 125px;
 }
 .awayScoreMain{
-	color: red;
+	color: rgba(252, 11, 11, 0.6);
 	float: center;
 	font-size: 100px;
 }
 .homeTeam{
-	color: blue;
+	color:  rgba(7, 7, 251, 0.6);
 	float: center;
 	font-weight: 900;
 }
 .homeScore{
-	color: blue;
+	color:  rgba(7, 7, 251, 0.6);
 	float: center;
 	font-weight: 900;
 }
 .awayTeam{
-	color: red;
+	color: rgba(252, 11, 11, 0.6);
 	float: center;
 	font-weight: 900;
 }
 .awayScore{
-	color: red;
+	color: rgba(252, 11, 11, 0.6);
 	float: center;
 	font-weight: 900;
 }
