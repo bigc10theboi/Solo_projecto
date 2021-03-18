@@ -25,9 +25,13 @@ function postTeam() {
 	$.ajax(settings).done(function (response) {
 		console.log(response);
 
-		var searchTeam = response.data[0].name;
+		var searchTeam = response.response[0].name;
+        var firstYear = response.response[0].founded;
+        var homeRink = response.response[0].arena.name;
 
 		$(".teamName").text(searchTeam);
+        $(".founded").text(firstYear);
+        $(".location").text(homeRink);
 	});
 }
 
