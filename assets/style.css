@@ -73,8 +73,8 @@ li {
 /* current date display */
 .date {
 	float: right;
-	margin-right: 375px;
 	margin-top: 12px;
+	margin-right: 100px;
 	text-align: center;
 	color: black;
 	background-color: rgba(253, 251, 251, .7);
@@ -85,15 +85,19 @@ li {
 }
 /* home/away team stylings */
 .teamName{
-	color: rgba(7, 7, 251, 0.6);
+	color: rgba(7, 7, 251, 0.8);
 	float: center;
 	font-size: 125px;
 }
-
-.awayScoreMain{
-	color: rgba(252, 11, 11, 0.6);
-	float: center;
-	font-size: 100px;
+.founded{
+	color: rgba(252, 11, 11, 0.8);
+	float: left;
+	font-size: 50px;
+}
+.location{
+	color: rgba(252, 11, 11, 0.8);
+	float: right;
+	font-size: 50px;
 }
 
 /* left hand divs */
@@ -102,8 +106,6 @@ h1 {
 	color: rgb(144, 30, 30);
 	background-color: rgba(253, 251, 251, .7);
 	margin-top: 5px;
-	margin-left: 200px;
-	margin-right: auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 700;
 	border-radius: 20%;
@@ -123,7 +125,7 @@ h1 {
 /* ended up shelfing this second endpoint */
 .teamHis {
 	text-align: center;
-	margin-left: 325px;
+	margin-left: 420px;
 }
 .teamHistory {
 	margin-left: 50px;
