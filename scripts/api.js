@@ -2,7 +2,7 @@
 const settings = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://api-hockey.p.rapidapi.com/teams/?id=" + $(data.id),
+	"url": "https://api-hockey.p.rapidapi.com/teams/?",
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
@@ -16,8 +16,8 @@ const settings = {
 $(document).ready(function () {
 	$(".dropdown-item").click(function (event) {
 		settings.data.id = $(this).attr("team");
+        console.log(settings.data.id);
 		postTeam();
-		$(".dropdown-item").html($(this).html());
 	});
 });
 
