@@ -84,47 +84,18 @@ li {
 	width: 275px;
 }
 /* home/away team stylings */
-.homeTeamMain{
+.teamName{
 	color: rgba(7, 7, 251, 0.6);
 	float: center;
 	font-size: 125px;
 }
-.homeScoreMain{
 
-	color:  rgba(7, 7, 251, 0.6);
-	float: center;
-	font-size: 100px;
-}
-.awayTeamMain{
-	color: rgba(252, 11, 11, 0.6);
-	float: center;
-	font-size: 125px;
-}
 .awayScoreMain{
 	color: rgba(252, 11, 11, 0.6);
 	float: center;
 	font-size: 100px;
 }
-.homeTeam{
-	color:  rgba(7, 7, 251, 0.6);
-	float: center;
-	font-weight: 900;
-}
-.homeScore{
-	color:  rgba(7, 7, 251, 0.6);
-	float: center;
-	font-weight: 900;
-}
-.awayTeam{
-	color: rgba(252, 11, 11, 0.6);
-	float: center;
-	font-weight: 900;
-}
-.awayScore{
-	color: rgba(252, 11, 11, 0.6);
-	float: center;
-	font-weight: 900;
-}
+
 /* left hand divs */
 h1 {
 	text-align: center;
@@ -150,24 +121,25 @@ h1 {
 	border-radius: 15%;
 }
 /* ended up shelfing this second endpoint */
-/* .teamHis {
+.teamHis {
 	text-align: center;
 	margin-left: 325px;
 }
 .teamHistory {
 	margin-left: 50px;
-	float: left;
-	height: 450px;
+	float: initial;
+	height: 800px;
+	min-width: 1450px;
 	padding: 10px;
 	text-align: center;
 	background-color: rgba(143, 206, 228, .6);
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
-} */
+}
 
 /* past five games */
-h2 {
+/* h2 {
 	color: rgb(144, 30, 30);
 	padding-left: 15px;
 	background-color: rgba(253, 251, 251, .7);
@@ -189,19 +161,12 @@ h2 {
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
-}
+} */
 
 /* media queries */
-@media screen and (max-width: 1789px) {
-	/* aside */
-	#fiveGame {
-		margin-right: 600px;
-	}
-}
-@media screen and (max-width: 1500px) {
-	/* aside */
-	#fiveGame {
-		margin-right: 400px;
+@media screen and (max-width: 2000px) {
+	.teamHistory {
+		min-width: 1500px;
 	}
 }
 @media screen and (max-width: 1224px) {
@@ -209,9 +174,8 @@ h2 {
 	.navLinks {
 		margin-left: 50px;
 	}
-	/* aside */
-	#fiveGame {
-		margin-right: 200px;
+	.teamHistory {
+		min-width: 975px;
 	}
 }
 
@@ -227,10 +191,6 @@ h2 {
 	/* date display */
 	.date {
 		margin-right: 150px;
-	}
-	/* aside */
-	#fiveGame {
-		margin-right: 75px;
 	}
 }
 
@@ -253,35 +213,11 @@ h2 {
 		margin-right: auto;
 		font-weight: 500;
 	}
-	.favTeam {
+	.teamHistory {
 		margin-left: 10px;
-		width: auto;
+		width: fit-content;
 		min-width: 480px;
 		height: 500px;
-	}
-	.homeTeamMain{
-		font-size: 50px;
-	}
-	.homeScoreMain{
-		font-size: 40px;
-	}
-	.awayTeamMain{
-
-		font-size: 50px;
-	}
-	.awayScoreMain{
-
-		font-size: 40px;
-	}
-	/* aside */
-	h2 {
-		font-weight: 500;
-	}
-	#fiveGame {
-		margin-right: 10px;
-	}
-	.fiveGame {
-		width: auto;
 	}
 }
 

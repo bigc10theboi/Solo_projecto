@@ -1,43 +1,38 @@
-const date = moment();
-
-$(document).ready(function () {
-	$(".dropdown-item").click(function (event) {
-		data.team = $(this).attr("team");
-		postGame();
-		$(".dropdown-item").html($(this).html());
-	});
-});
-
-function postGame() {
-	$.ajax(settings).done(function (response) {
-		console.log(response);
-
-		var awayTeam = response.data[0].teams.away.name;
-
-		$(".awayTeamMain").text(awayTeam);
-	});
-}
-
 //team hisory call
 const settings = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://api-hockey.p.rapidapi.com/teams/?id" + $(data.id),
+	"url": "https://api-hockey.p.rapidapi.com/teams/?id=" + $(data.id),
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "a86b8e2882msh6b7eddee6341815p15350cjsnce424e112305",
 		"x-rapidapi-host": "api-hockey.p.rapidapi.com"
 	},
     data: {
-        id: "",
+        id: '',
     },
 };
 
-$.ajax(settings).done(function (response) {
-	console.log(response);
+$(document).ready(function () {
+	$(".dropdown-item").click(function (event) {
+		settings.data.id = $(this).attr("team");
+		postTeam();
+		$(".dropdown-item").html($(this).html());
+	});
 });
 
+function postTeam() {
+	$.ajax(settings).done(function (response) {
+		console.log(response);
 
+		var searchTeam = response.data[0].name;
+
+		$(".teamName").text(searchTeam);
+	});
+}
+
+
+// The original plan for this app was to pull current/upcoming games, but I was ramming my head into a wall until realizing the API doesn't store any future games
 // // call for games result
 // const settings = {
 // 	async: true,
