@@ -15,7 +15,7 @@ This app allows you to select a team using a dropdown and populate a div with ba
 <img src="readmepics/newdisplay(WSC).png">
 <br>
 The orignal draft was based around this layout
-<img src="readmepics/originaldisplay(WSC).png">
+<img src="readmepics/orignaldisplay(WSC).png">
 
 # Project Requirements
 Must be interactive (i.e: accept and respond to user input) <br>
