@@ -32,7 +32,7 @@ function postTeam() {
 
 		$(".teamName").text(searchTeam);
         $(".founded").text("The " + searchTeam + " started play in " + firstYear);
-        $(".location").text("Home arena is the " + homeRink + " located in " + location);
+        $(".location").text("Home arena is " + homeRink + " located in " + location);
 
 	});
 }
