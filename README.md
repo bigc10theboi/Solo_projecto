@@ -1,4 +1,4 @@
-# Wheel, Snipe, Celly- NHL Team Tracker
+# Wheel, Snipe, Celly- NHL team history
 Makeup for project 1
 
 # My Experience
