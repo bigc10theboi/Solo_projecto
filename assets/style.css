@@ -90,13 +90,13 @@ li {
 	font-size: 125px;
 }
 .founded{
-	color: rgba(252, 11, 11, 0.8);
+	color: rgb(252, 11, 11);
 	float: center;
 	font-size: 50px;
 	padding-top: 50px;
 }
 .location{
-	color: rgba(252, 11, 11, 0.8);
+	color: rgb(252, 11, 11);
 	float: center;
 	font-size: 50px;
 	padding-top: 50px;

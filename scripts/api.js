@@ -28,10 +28,12 @@ function postTeam() {
 		var searchTeam = response.response[0].name;
         var firstYear = response.response[0].founded;
         var homeRink = response.response[0].arena.name;
+        var location = response.response[0].arena.location;
 
 		$(".teamName").text(searchTeam);
-        $(".founded").text(firstYear);
-        $(".location").text(homeRink);
+        $(".founded").text("The " + searchTeam + " started play in " + firstYear);
+        $(".location").text("Home arena is the " + homeRink + " located in " + location);
+
 	});
 }
 

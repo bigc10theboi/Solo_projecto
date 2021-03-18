@@ -3,6 +3,7 @@ Makeup for project 1
 
 # My Experience
 My initial vision for this application was much farther reaching, involving a div to populate with upcoming game and divs for the past five games. I basically ran my head into a wall until realizing the API would never pull an upcoming game and inputting previous games would involve making a function to determine when those games happened. Upon hitting this wall I pivoted back to an initial "add-on" I'd envisioned in the form of some basic team facts.
+Some things I wasn't able to achieve in this design was linking the team logo and adding teams colors displayed in said colors.
 
 # User Story
 AS an avid NHL Fan <br>
