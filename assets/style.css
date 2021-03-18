@@ -108,7 +108,7 @@ h1 {
 	font-weight: 700;
 	border-radius: 20%;
 }
-.favTeam {
+/* .favTeam {
 	margin-left: 50px;
 	float: left;
 	height: 800px;
@@ -119,7 +119,7 @@ h1 {
 	border: solid 5px black;
 	margin-bottom: 5px;
 	border-radius: 15%;
-}
+} */
 /* ended up shelfing this second endpoint */
 .teamHis {
 	text-align: center;
