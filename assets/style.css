@@ -220,6 +220,7 @@ h1 {
 	.teamHistory {
 		margin-left: 10px;
 		width: fit-content;
+		height: fit-content;
 		min-width: 480px;
 		height: 500px;
 	}
