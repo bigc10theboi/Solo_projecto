@@ -12,6 +12,10 @@ SO THAT I can further my knowledge <br>
 
 # App Functionality
 This app allows you to select a team using a dropdown and populate a div with basic information
+<img src="readmepics/newdisplay(WSC).png">
+<br>
+The orignal draft was based around this layout
+<img src="readmepics/originaldisplay(WSC).png">
 
 # Project Requirements
 Must be interactive (i.e: accept and respond to user input) <br>
